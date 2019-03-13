@@ -1,0 +1,28 @@
+[time:2019-03-13 17:22:51,584 - file:log.py] - ERROR : 删除自定义月之不传站点
+[time:2019-03-13 17:22:51,584 - file:log.py] - ERROR : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 17:22:51,584 - file:log.py] - ERROR : postbody
+[time:2019-03-13 17:22:51,585 - file:log.py] - ERROR : {'Content-Type': 'application/json'}
+[time:2019-03-13 17:22:51,585 - file:log.py] - ERROR : {'operation': 'del'}
+[time:2019-03-13 17:22:51,585 - file:log.py] - ERROR : 用例测试断言错误
+[time:2019-03-13 17:22:51,585 - file:log.py] - ERROR : ['code']真实值:1,方式:等于,预期值:0
+[time:2019-03-13 17:22:51,955 - file:log.py] - ERROR : 自定义月之monthFlag传入2
+[time:2019-03-13 17:22:51,955 - file:log.py] - ERROR : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 17:22:51,956 - file:log.py] - ERROR : postbody
+[time:2019-03-13 17:22:51,956 - file:log.py] - ERROR : {'Content-Type': 'application/json'}
+[time:2019-03-13 17:22:51,956 - file:log.py] - ERROR : {'operation': 'add', 'siteId': 'site_00000025', 'day': 1, 'monthFlag': 2, 'isDefault': True}
+[time:2019-03-13 17:22:51,956 - file:log.py] - ERROR : 用例测试断言错误
+[time:2019-03-13 17:22:51,957 - file:log.py] - ERROR : ['code']真实值:1,方式:等于,预期值:0
+[time:2019-03-13 17:22:52,269 - file:log.py] - ERROR : 自定义月之不传siteid
+[time:2019-03-13 17:22:52,269 - file:log.py] - ERROR : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 17:22:52,269 - file:log.py] - ERROR : postbody
+[time:2019-03-13 17:22:52,269 - file:log.py] - ERROR : {'Content-Type': 'application/json'}
+[time:2019-03-13 17:22:52,269 - file:log.py] - ERROR : {'operation': 'add', 'day': 30, 'monthFlag': 1, 'isDefault': True}
+[time:2019-03-13 17:22:52,269 - file:log.py] - ERROR : 用例测试断言错误
+[time:2019-03-13 17:22:52,269 - file:log.py] - ERROR : ['code']真实值:1,方式:等于,预期值:0
+[time:2019-03-13 17:22:52,378 - file:log.py] - ERROR : 自定义月之传入32号
+[time:2019-03-13 17:22:52,378 - file:log.py] - ERROR : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 17:22:52,378 - file:log.py] - ERROR : postbody
+[time:2019-03-13 17:22:52,378 - file:log.py] - ERROR : {'Content-Type': 'application/json'}
+[time:2019-03-13 17:22:52,378 - file:log.py] - ERROR : {'operation': 'add', 'siteId': 'site_00000051', 'day': 32, 'monthFlag': 1, 'isDefault': True}
+[time:2019-03-13 17:22:52,378 - file:log.py] - ERROR : 用例测试断言错误
+[time:2019-03-13 17:22:52,378 - file:log.py] - ERROR : ['code']真实值:1,方式:等于,预期值:0

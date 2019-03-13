@@ -127,22 +127,24 @@ class Template_mixin(object):
     """
 
     STATUS = {
-        0: 'pass',
-        1: 'fail',
-        2: 'error',
+    0: '通过',
+    1: '失败',
+    2: '错误',
     }
 
-    DEFAULT_TITLE = 'Unit Test Report'
+    DEFAULT_TITLE = '单元测试报告'
     DEFAULT_DESCRIPTION = ''
+    DEFAULT_TESTER='YOYO'
 
     # ------------------------------------------------------------------------
     # HTML Template
 
-    HTML_TMPL = r"""
+    HTML_TMPL = r"""<?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE html>
 <html>
 <head>
     <meta charset='utf-8'/>
+     <title>%(title)s</title>
     <meta name='description' content=''/>
     <meta name='robots' content='noodp, noydir'/>
     <meta name='viewport' content='width=device-width, initial-scale=1'/>
@@ -158,6 +160,88 @@ class Template_mixin(object):
 <div id='theme-selector' alt='切换主题，默认黑色' title='切换主题'>
     <span><i class='material-icons'>desktop_windows</i></span>
 </div>
+
+<script language="javascript" type="text/javascript">
+output_list = Array();
+/*level 调整增加只显示通过用例的分类 --Findyou
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:All     //pt none, ft none
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        //ID修改 点 为 下划线 -Findyou
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
 %(heading)s
 <div class='container'>
     %(report)s
@@ -252,7 +336,7 @@ class Template_mixin(object):
                         <i class='material-icons'>warning</i> Status
                     </a>
                     <ul id='tests-toggle' class='dropdown-content'>
-                        <li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a>
+                        <li status='通过'><a href='#!'>通过 <i class='material-icons green-text'>check_circle</i></a>
                         </li>
                         <li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
                         <li status="skip"><a href="#!">Skip <i class="material-icons cyan-text">redo</i></a></li>
@@ -318,15 +402,13 @@ class Template_mixin(object):
                                 <canvas id='parent-analysis' width='100' height='80'></canvas>
                             </div>
                             <div class='block text-small'>
-                            <span class='tooltipped' data-position='top' style="font-weight: bold;font-size:15px;color:#00af00"><span
+                            <span class='tooltipped' data-position='top' style="font-weight: bold;font-size:18px;color:#00af00"><span
                                     class='strong'>%(pass_count)s</span> 个用例 passed</span>
-                                <span class='tooltipped' data-position='top' style="font-weight: bold;font-size:15px;color:#F7464A"><span
+                                <span class='tooltipped' data-position='top' style="font-weight: bold;font-size:18px;color:#FF0000"><span
                                         class='strong'>%(fail_count)s</span> 个用例 failed</span>
                             </div>
-                            <div class='block text-small' style="font-weight: bold;font-size:15px;color:#ff6347">
-                            <span class='strong tooltipped' data-position='top'
-                            >%(error_count)s</span>
-                                个用例 errored
+                            <div class='block text-small' style="font-weight: bold;font-size:18px;color:#FFD700">
+                            <span class='strong tooltipped' data-position='top'>%(error_count)s</span>个用例 errored
                             </div>
                         </div>
                     </div>
@@ -354,9 +436,9 @@ class Template_mixin(object):
         %(status_span)s
     </div>
     <div class='test-content hide'>
-        <div class='test-desc'>Pass: %(Pass)s ;
-                                Fail: %(fail)s ;
-                                Error: %(error)s ;
+        <div class='test-desc'>通过: %(Pass)s ;
+                                失败: %(fail)s ;
+                                错误: %(error)s ;
         </div>
         <div class='test-attributes'>
             <div class='category-list'>
@@ -701,10 +783,11 @@ class Template_mixin(object):
     #
 
     REPORT_TMPL = """
-<p id='show_detail_line'>Show
-<a href='javascript:showCase(0)'>Summary</a>
-<a href='javascript:showCase(1)'>Failed</a>
-<a href='javascript:showCase(2)'>All</a>
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ %(passrate)s }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ %(fail)s }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ %(Pass)s }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ %(count)s }</a>
 </p>
 <table id='result_table'>
 <colgroup>
@@ -715,14 +798,13 @@ class Template_mixin(object):
 <col align='right' />
 <col align='right' />
 </colgroup>
-<tr id='header_row'>
-    <td>Test Group/Test case</td>
-    <td>Count</td>
-    <td>Pass</td>
-    <td>Fail</td>
-    <td>Error</td>
-    <td>View</td>
-    <td>Screenshot</td>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 16px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
 </tr>
 %(test_list)s
 <tr id='total_row'>
@@ -731,6 +813,7 @@ class Template_mixin(object):
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
+       <td>通过率：%(passrate)s</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
 </tr>
@@ -776,10 +859,11 @@ class Template_mixin(object):
     <img class="small_img" src="%(screenshot)s"  onclick="document.getElementById('light_%(screenshot_id)s').style.display ='block';document.getElementById('fade_%(screenshot_id)s').style.display='block'"/>
     """
 
+    # 通过 的样式，加标签效果  -Findyou
     REPORT_TEST_NO_OUTPUT_TMPL = r"""
 <tr id='%(tid)s' class='%(Class)s'>
     <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
-    <td colspan='5' align='center'>%(status)s</td>
+    <td colspan='5' align='center'><span class="label label-success success">%(status)s</span></td>
 </tr>
 """  # variables: (tid, Class, style, desc, status)
 
@@ -798,9 +882,12 @@ class Template_mixin(object):
     # ------------------------------------------------------------------------
     # ENDING
     #
-
-    ENDING_TMPL = """<div id='ending'>&nbsp;</div>"""
-
+    # 增加返回顶部按钮  --Findyou
+    ENDING_TMPL = """<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    """
 
 # -------------------- The end of the Template class -------------------
 
@@ -829,8 +916,12 @@ class _TestResult(TestResult):
         #   stack trace,
         # )
         self.result = []
+        #增加一个测试通过率 --Findyou
+        self.passrate=float(0)
+
 
     def startTest(self, test):
+        print("{0} - Start Test:{1}".format(time.asctime(),str(test)))
         TestResult.startTest(self, test)
         # just one buffer for both stdout and stderr
         # self.outputBuffer = StringIO.StringIO()
@@ -879,11 +970,11 @@ class _TestResult(TestResult):
         output = self.complete_output()
         self.result.append((2, test, output, _exc_str))
         if self.verbosity > 1:
-            sys.stderr.write('E  ')
+            sys.stderr.write('E列表  ')
             sys.stderr.write(str(test))
             sys.stderr.write('\n')
         else:
-            sys.stderr.write('E')
+            sys.stderr.write('E列表')
 
     def addFailure(self, test, err):
         self.failure_count += 1
@@ -902,8 +993,7 @@ class _TestResult(TestResult):
 class HTMLTestRunner(Template_mixin):
     """
     """
-
-    def __init__(self, stream=sys.stdout, verbosity=1, title=None, description=None):
+    def __init__(self, stream=sys.stdout, verbosity=2,title=None,description=None,tester=None):
         self.stream = stream
         self.verbosity = verbosity
         if title is None:
@@ -914,6 +1004,10 @@ class HTMLTestRunner(Template_mixin):
             self.description = self.DEFAULT_DESCRIPTION
         else:
             self.description = description
+        if tester is None:
+            self.tester = self.DEFAULT_TESTER
+        else:
+            self.tester = tester
 
         self.startTime = datetime.datetime.now()
 
@@ -942,6 +1036,7 @@ class HTMLTestRunner(Template_mixin):
         r = [(cls, rmap[cls]) for cls in classes]
         return r
 
+    #替换测试结果status为通过率 --Findyou
     def getReportAttributes(self, result):
         """
         Return report attributes as a list of (name, value).
@@ -950,17 +1045,20 @@ class HTMLTestRunner(Template_mixin):
         startTime = str(self.startTime)[:19]
         duration = str(self.stopTime - self.startTime)
         status = []
-        if result.success_count: status.append('Pass %s' % result.success_count)
-        if result.failure_count: status.append('Failure %s' % result.failure_count)
-        if result.error_count:   status.append('Error %s' % result.error_count)
+        status.append('共 %s' % (result.success_count + result.failure_count + result.error_count))
+        if result.success_count: status.append('通过 %s'    % result.success_count)
+        if result.failure_count: status.append('失败 %s' % result.failure_count)
+        if result.error_count:   status.append('错误 %s'   % result.error_count  )
         if status:
-            status = ' '.join(status)
+            status = '，'.join(status)
+            self.passrate = str("%.2f%%" % (float(result.success_count) / float(result.success_count + result.failure_count + result.error_count) * 100))
         else:
             status = 'none'
         return [
-            ('Start Time', startTime),
-            ('Duration', duration),
-            ('Status', status),
+            ('测试人员', self.tester),
+            ('开始时间',startTime),
+            ('合计耗时',duration),
+            ('测试结果',status + "，通过率= "+self.passrate),
         ]
 
     def generateReport(self, test, result):
@@ -988,6 +1086,7 @@ class HTMLTestRunner(Template_mixin):
     def _generate_stylesheet(self):
         return self.STYLESHEET_TMPL
 
+    #增加Tester显示 -Findyou
     def _generate_heading(self, report_attrs):
         # 弃掉 HEADING_ATTRIBUTE_TMPL
         a_lines = []
@@ -1004,9 +1103,11 @@ class HTMLTestRunner(Template_mixin):
         # 取出来Start Time、Duration、Status
         heading = self.NAV % dict(
             title=saxutils.escape(self.title),
+            parameters=''.join(a_lines),
             start_time=startTime,
             duration=duration,
             description=saxutils.escape(self.description),
+            tester=saxutils.escape(self.tester)
         )
         return heading
 
@@ -1039,6 +1140,7 @@ class HTMLTestRunner(Template_mixin):
         )
         return dashboard_view
 
+    # 生成报告  --Findyou添加注释
     def _generate_report(self, result):
         rows = []
         row1s = []
