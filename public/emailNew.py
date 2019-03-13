@@ -6,6 +6,8 @@ from email.mime.text import MIMEText
 from email.header import Header
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
+
+
 class SendEmail:
     def __init__(self,host_dir,email_port,username,passwd):
         self.host_dir=host_dir

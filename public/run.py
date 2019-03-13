@@ -10,7 +10,7 @@ from public.system import rm_file
 from public.spider import  Spider
 from request.models import *
 from django.db.models import Min,Avg,Max,Sum
-from public.email import SendEmail
+from public.emailNew import SendEmail
 from public.ExtentHTMLTestRunner import HTMLTestRunner
 
 #将文件的全局变量通过类属性传递给脚本文件
