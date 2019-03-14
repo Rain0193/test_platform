@@ -21,19 +21,20 @@ class SendEmail:
     #连接邮件服务器
     def __connect(self):
         try:
-            self.e = smtplib.SMTP()
+            self.e = smtplib.SMTP_SSL(host=self.host_dir, port=self.email_port, local_hostname=self.username)
+            # self.e.set_debuglevel(0)    # 0表示不显示
             self.e.connect(self.host_dir, port=self.email_port)
             print("邮件服务器连接成功")
-        except:
-            print ("邮件服务器连接失败")
+        except Exception as i:
+            print ("邮件服务器连接失败:", i)
 
     #登录邮箱
     def __login(self):
         try:
             self.e.login(self.username, self.passwd)
             print("邮箱登录成功")
-        except:
-            print ("邮箱登录失败")
+        except Exception as a:
+            print ("邮箱登录失败:", a)
 
     #添加附件
     def __addannex(self,logs):
@@ -76,7 +77,16 @@ class SendEmail:
         try:
             self.e.sendmail(sender, receivers, self.message.as_string())
             print("邮件发送完成")
-        except smtplib.SMTPException:
-            print("Error: 无法发送邮件")
+        except smtplib.SMTPException as e:
+            print("Error: 无法发送邮件:",e)
         finally:
             self.e.quit()
+
+
+
+if __name__ == '__main__':
+    # s = SendEmail("smtp.163.com", 25, "amrenyu@163.com", "Aa123456")
+    # d = s.send("amrenyu@163.com", "345944432@qq.com")
+
+    s = SendEmail("smtp.qiye.aliyun.com",465, "alert@enesource.com", "GitlabSender2017")
+    d = s.send("alert@enesource.com", "youyou.xu@enesource.com")

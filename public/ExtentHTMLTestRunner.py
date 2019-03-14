@@ -734,7 +734,7 @@ function html_escape(s) {
             width: 30%;
         }
         .small_img{
-            height: 180px; 
+            height: 200px; 
             width: 100px; 
             padding: 10px;
             float: left;
