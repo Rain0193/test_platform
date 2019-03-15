@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f198f29-acf0-4c80-ba33-87463998389b" name="Default" comment="">
+    <list default="true" id="9f198f29-acf0-4c80-ba33-87463998389b" name="Default" comment="修改了发送邮件部分，可以发送成功了">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ExtentHTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/ExtentHTMLTestRunner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,28 +11,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/requestnew$sqldb.coverage" NAME="sqldb Coverage Results" MODIFIED="1525316331171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1543310981371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requestnew$run.coverage" NAME="run Coverage Results" MODIFIED="1528718046996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/requestnew$mongodb.coverage" NAME="mongodb Coverage Results" MODIFIED="1534214033383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$Unittests_for_PostStoreAreaOwner_PostStoreAreaOwner.coverage" NAME="Unittests for PostStoreAreaOwner.PostStoreAreaOwner Coverage Results" MODIFIED="1547014346504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task---71dfddde-13c2-11e9-8dcf-4cedfb3d07c3/testcase" />
     <SUITE FILE_PATH="coverage/requestnew$test.coverage" NAME="test Coverage Results" MODIFIED="1546074510518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test_platform$manage.coverage" NAME="manage Coverage Results" MODIFIED="1550652334879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_MetadataCityIncrement_py.coverage" NAME="Unittests in MetadataCityIncrement.py Coverage Results" MODIFIED="1524882278079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/task1/testcase" />
     <SUITE FILE_PATH="coverage/requestnew$Assert.coverage" NAME="Assert Coverage Results" MODIFIED="1546076871798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requestnew$Unittests_for_PostStoreAreaOwner_PostStoreAreaOwner_test_StoreAreaOwner.coverage" NAME="Unittests for PostStoreAreaOwner.PostStoreAreaOwner.test_StoreAreaOwner Coverage Results" MODIFIED="1547014327739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task---71dfddde-13c2-11e9-8dcf-4cedfb3d07c3/testcase" />
-    <SUITE FILE_PATH="coverage/requestnew$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1546946694779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/requestnew$script_function.coverage" NAME="script_function Coverage Results" MODIFIED="1547020397539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1533621606086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task/testcase" />
     <SUITE FILE_PATH="coverage/requestnew$request.coverage" NAME="request Coverage Results" MODIFIED="1541321022508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_postCouponDisplaymentNormalTest_py.coverage" NAME="Unittests in postCouponDisplaymentNormalTest.py Coverage Results" MODIFIED="1539239073998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task/testcase" />
-    <SUITE FILE_PATH="coverage/test_platform$expandfunction.coverage" NAME="expandfunction Coverage Results" MODIFIED="1552461650015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_UserLoginInfoAdd_py.coverage" NAME="Unittests in UserLoginInfoAdd.py Coverage Results" MODIFIED="1524886095975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/task1/testcase" />
     <SUITE FILE_PATH="coverage/requestnew$loader.coverage" NAME="loader Coverage Results" MODIFIED="1534055995829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python36/Lib/unittest" />
-    <SUITE FILE_PATH="coverage/requestnew$email.coverage" NAME="email Coverage Results" MODIFIED="1539257267810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1542784397953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requestnew$views.coverage" NAME="views Coverage Results" MODIFIED="1544444004309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request" />
     <SUITE FILE_PATH="coverage/requestnew$logtimeAssert.coverage" NAME="logtimeAssert Coverage Results" MODIFIED="1547000982459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requestnew$sqldb.coverage" NAME="sqldb Coverage Results" MODIFIED="1525316331171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/requestnew$mongodb.coverage" NAME="mongodb Coverage Results" MODIFIED="1534214033383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/test_platform$emailNew.coverage" NAME="emailNew Coverage Results" MODIFIED="1552546192111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/test_platform$manage.coverage" NAME="manage Coverage Results" MODIFIED="1550652334879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_platform$smtplib.coverage" NAME="smtplib Coverage Results" MODIFIED="1552545747966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python37/Lib" />
+    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_MetadataCityIncrement_py.coverage" NAME="Unittests in MetadataCityIncrement.py Coverage Results" MODIFIED="1524882278079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/task1/testcase" />
+    <SUITE FILE_PATH="coverage/requestnew$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1546946694779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requestnew$script_function.coverage" NAME="script_function Coverage Results" MODIFIED="1547020397539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1533621606086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task/testcase" />
+    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_postCouponDisplaymentNormalTest_py.coverage" NAME="Unittests in postCouponDisplaymentNormalTest.py Coverage Results" MODIFIED="1539239073998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task/testcase" />
+    <SUITE FILE_PATH="coverage/test_platform$expandfunction.coverage" NAME="expandfunction Coverage Results" MODIFIED="1552461650015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/requestnew$Unittests_in_UserLoginInfoAdd_py.coverage" NAME="Unittests in UserLoginInfoAdd.py Coverage Results" MODIFIED="1524886095975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/task1/testcase" />
+    <SUITE FILE_PATH="coverage/requestnew$email.coverage" NAME="email Coverage Results" MODIFIED="1539257267810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$redis.coverage" NAME="redis Coverage Results" MODIFIED="1542163789715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -50,13 +51,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/ExtentHTMLTestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="438" column="29" selection-start-line="438" selection-start-column="20" selection-end-line="438" selection-end-column="29" />
+            <state relative-caret-position="84">
+              <caret line="705" column="30" lean-forward="true" selection-start-line="705" selection-start-column="30" selection-end-line="705" selection-end-column="30" />
               <folding>
                 <element signature="e#1674#1689#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/emailNew.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+              <folding>
+                <element signature="e#43#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,15 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_dbvs</find>
-      <find>Database</find>
-      <find>DatabaseModel</find>
-      <find>db_remarks</find>
-      <find>Db</find>
-      <find>sqldbDatabase</find>
-      <find>port</find>
-      <find>disable</find>
-      <find>buttonsure</find>
       <find>make</find>
       <find>db_</find>
       <find>进度</find>
@@ -102,8 +106,17 @@
       <find>Pass</find>
       <find>1</find>
       <find>size</find>
-      <find>14</find>
       <find>Details</find>
+      <find>test-desc</find>
+      <find>任务</find>
+      <find>执行</find>
+      <find>height</find>
+      <find>card-panel</find>
+      <find>14</find>
+      <find>_have_ssl</find>
+      <find>info</find>
+      <find>ssl</find>
+      <find>debuglevel</find>
     </findStrings>
     <replaceStrings>
       <replace>email</replace>
@@ -115,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/task/market_center---214e8f0c-040a-11e9-a3bb-4cedfb3d07c3/testcase/RouletteRecords.py" />
         <option value="$PROJECT_DIR$/templates/main/report.html" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Assert.py" />
@@ -162,18 +174,19 @@
         <option value="$PROJECT_DIR$/templates/main/case.html" />
         <option value="$PROJECT_DIR$/templates/main/step.html" />
         <option value="$PROJECT_DIR$/public/expandfunction.py" />
-        <option value="$PROJECT_DIR$/public/emailNew.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/../test_API/libnew/HTMLTestRunnerNew.py" />
         <option value="$PROJECT_DIR$/public/ExtentHTMLTestRunner.py" />
+        <option value="E:/Python/Python37/Lib/smtplib.py" />
+        <option value="$PROJECT_DIR$/public/emailNew.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="284" />
-    <option name="y" value="133" />
-    <option name="width" value="1452" />
-    <option name="height" value="725" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="258" />
+    <option name="y" value="138" />
+    <option name="width" value="1517" />
+    <option name="height" value="861" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,7 +245,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.expandfunction">
+  <component name="RunManager" selected="Python.emailNew">
+    <configuration name="emailNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="requestnew" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/emailNew.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="expandfunction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="requestnew" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,6 +334,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="smtplib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="requestnew" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Python/Python37/Lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Python/Python37/Lib/smtplib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="requestnew" type="Python.DjangoServer" factoryName="Django server">
       <module name="requestnew" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,51 +380,21 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for PostStoreAreaOwner.PostStoreAreaOwner" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="requestnew" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task/first_task---71dfddde-13c2-11e9-8dcf-4cedfb3d07c3/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PostStoreAreaOwner.PostStoreAreaOwner&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for PostStoreAreaOwner.PostStoreAreaOwner.test_StoreAreaOwner" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="requestnew" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task/first_task---71dfddde-13c2-11e9-8dcf-4cedfb3d07c3/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PostStoreAreaOwner.PostStoreAreaOwner.test_StoreAreaOwner&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Django server.requestnew" />
       <item itemvalue="Python.script_function" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.expandfunction" />
-      <item itemvalue="Python tests.Unittests for PostStoreAreaOwner.PostStoreAreaOwner.test_StoreAreaOwner" />
-      <item itemvalue="Python tests.Unittests for PostStoreAreaOwner.PostStoreAreaOwner" />
+      <item itemvalue="Python.emailNew" />
+      <item itemvalue="Python.smtplib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.emailNew" />
+        <item itemvalue="Python.smtplib" />
         <item itemvalue="Python.expandfunction" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.script_function" />
-        <item itemvalue="Python tests.Unittests for PostStoreAreaOwner.PostStoreAreaOwner" />
-        <item itemvalue="Python tests.Unittests for PostStoreAreaOwner.PostStoreAreaOwner.test_StoreAreaOwner" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +412,7 @@
       <workItem from="1550659042320" duration="2399000" />
       <workItem from="1550747802188" duration="4455000" />
       <workItem from="1551336377724" duration="1099000" />
-      <workItem from="1551781827157" duration="23225000" />
+      <workItem from="1551781827157" duration="36504000" />
     </task>
     <task id="LOCAL-00001" summary="修改了接口名稱输入只允许英文，一个地方">
       <created>1550750202942</created>
@@ -401,7 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552465266753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改了报告的样式">
+      <created>1552472463447</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552472463447</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改了发送邮件部分，可以发送成功了">
+      <created>1552546331412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552546331412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -437,7 +478,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37198000" />
+    <option name="totallyTimeSpent" value="50477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,22 +490,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="258" y="138" width="1517" height="861" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463967" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9051173" weight="0.35900217" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.28091106" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.4167813" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.22885032" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.22885032" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09488273" side_tool="true" weight="0.330076" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49946696" weight="0.21018419" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32899022" />
@@ -507,7 +547,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了接口名稱输入只允许英文，一个地方" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了接口名稱输入只允许英文，一个地方" />
+    <MESSAGE value="修改了报告的样式" />
+    <MESSAGE value="修改了发送邮件部分，可以发送成功了" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了发送邮件部分，可以发送成功了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -521,8 +563,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task/first_task---2acb8fee-26db-11e9-915f-4cedfb3d07c3/testcase/UserLogin.py" />
-    <entry file="file://D:/python/Lib/site-packages/django/contrib/auth/decorators.py" />
     <entry file="file://$PROJECT_DIR$/task/first_task---2ee733f4-26e0-11e9-b807-4cedfb3d07c3/testcase/UserLogin.py" />
     <entry file="file://$PROJECT_DIR$/task/first_task---d1a6a6c6-26ee-11e9-84c6-4cedfb3d07c3/testcase/UserLogin.py" />
     <entry file="file://$PROJECT_DIR$/public/suit.py">
@@ -554,16 +594,6 @@
     <entry file="file://$PROJECT_DIR$/public/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/job.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -583,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -679,16 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/make_testcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#20#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -757,23 +770,6 @@
     <entry file="file://$PROJECT_DIR$/templates/main/project.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="727" column="124" selection-start-line="727" selection-start-column="116" selection-end-line="727" selection-end-column="135" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Python/Python37/Lib/smtplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/176344886/time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1421">
@@ -815,16 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/emailNew.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#43#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/nohtmlreport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -859,12 +845,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/make_testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1211">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#20#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2545">
+          <caret line="642" column="73" selection-start-line="642" selection-start-column="62" selection-end-line="642" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/176344886/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="940" column="6" selection-start-line="940" selection-start-column="6" selection-end-line="940" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/ExtentHTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="438" column="29" selection-start-line="438" selection-start-column="20" selection-end-line="438" selection-end-column="29" />
+        <state relative-caret-position="84">
+          <caret line="705" column="30" lean-forward="true" selection-start-line="705" selection-start-column="30" selection-end-line="705" selection-end-column="30" />
           <folding>
             <element signature="e#1674#1689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python/Python37/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14406">
+          <caret line="690" column="4" selection-start-line="690" selection-start-column="4" selection-end-line="690" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python/Python37/Lib/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23373">
+          <caret line="1113" column="28" selection-start-line="1113" selection-start-column="19" selection-end-line="1113" selection-end-column="28" />
+          <folding>
+            <element signature="e#1343#1356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/emailNew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+          <folding>
+            <element signature="e#43#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

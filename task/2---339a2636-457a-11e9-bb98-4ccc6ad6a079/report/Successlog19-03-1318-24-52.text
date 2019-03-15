@@ -1,0 +1,126 @@
+[time:2019-03-13 18:24:52,257 - file:log.py] - INFO : 删除一个不存在的自定义月设置
+[time:2019-03-13 18:24:52,258 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:52,258 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:52,258 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:52,258 - file:log.py] - INFO : {'operation': 'del', 'siteId': 'site_00000998'}
+[time:2019-03-13 18:24:52,258 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:52,351 - file:log.py] - INFO : 删除自定义月
+[time:2019-03-13 18:24:52,351 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:52,352 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:52,352 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:52,352 - file:log.py] - INFO : {'operation': 'del', 'siteId': 'site_00000330'}
+[time:2019-03-13 18:24:52,353 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:52,469 - file:log.py] - INFO : 给同一站点重复添加自定义月
+[time:2019-03-13 18:24:52,469 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:52,470 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:52,470 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:52,470 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000155', 'day': 1, 'monthFlag': 1, 'isDefault': True}
+[time:2019-03-13 18:24:52,470 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:52,638 - file:log.py] - INFO : 自定义月之不传day
+[time:2019-03-13 18:24:52,638 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:52,638 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:52,638 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:52,638 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000148', 'monthFlag': 1, 'isDefault': True}
+[time:2019-03-13 18:24:52,638 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:52,787 - file:log.py] - INFO : 自定义月之不传isDefault
+[time:2019-03-13 18:24:52,787 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:52,787 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:52,787 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:52,787 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000148', 'day': 20, 'monthFlag': 1}
+[time:2019-03-13 18:24:52,787 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:52,899 - file:log.py] - INFO : 自定义月之不传monthFlag
+[time:2019-03-13 18:24:52,899 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:52,899 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:52,899 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:52,899 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000149', 'day': 28, 'isDefault': True}
+[time:2019-03-13 18:24:52,899 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,289 - file:log.py] - INFO : 自定义月修改之上月改成本月
+[time:2019-03-13 18:24:53,289 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,289 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,289 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,290 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000157', 'day': '32', 'monthFlag': 1, 'isDefault': 'false'}
+[time:2019-03-13 18:24:53,290 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,372 - file:log.py] - INFO : 自定义月修改之不传day
+[time:2019-03-13 18:24:53,373 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,373 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,373 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,373 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000329', 'monthFlag': '2', 'isDefault': 'true'}
+[time:2019-03-13 18:24:53,373 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,456 - file:log.py] - INFO : 自定义月修改之不传isDefault
+[time:2019-03-13 18:24:53,457 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,457 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,457 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,457 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000329', 'day': '3', 'monthFlag': '2'}
+[time:2019-03-13 18:24:53,457 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,548 - file:log.py] - INFO : 自定义月修改之不传monthFlag
+[time:2019-03-13 18:24:53,548 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,548 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,549 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,549 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000329', 'day': '3', 'isDefault': 'true'}
+[time:2019-03-13 18:24:53,549 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,602 - file:log.py] - INFO : 自定义月修改之不传siteid
+[time:2019-03-13 18:24:53,602 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,602 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,603 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,603 - file:log.py] - INFO : {'operation': 'update', 'day': '3', 'monthFlag': '2', 'isDefault': 'true'}
+[time:2019-03-13 18:24:53,603 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,647 - file:log.py] - INFO : 自定义月修改之不传参数
+[time:2019-03-13 18:24:53,647 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,647 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,647 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,647 - file:log.py] - INFO : {'operation': 'update'}
+[time:2019-03-13 18:24:53,647 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,731 - file:log.py] - INFO : 自定义月修改之修改日期
+[time:2019-03-13 18:24:53,731 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,731 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,731 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,731 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000329', 'day': 13, 'monthFlag': '2', 'isDefault': 'true'}
+[time:2019-03-13 18:24:53,731 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,782 - file:log.py] - INFO : 自定义月修改之修改站点
+[time:2019-03-13 18:24:53,782 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,782 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,782 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,782 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000999', 'day': '13', 'monthFlag': '2', 'isDefault': 'true'}
+[time:2019-03-13 18:24:53,782 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,866 - file:log.py] - INFO : 自定义月修改之本月改成上月
+[time:2019-03-13 18:24:53,866 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,866 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,866 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,866 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000158', 'day': '40', 'monthFlag': 0, 'isDefault': 'false'}
+[time:2019-03-13 18:24:53,866 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:53,949 - file:log.py] - INFO : 自定义月修改之默认成不显示
+[time:2019-03-13 18:24:53,949 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:53,949 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:53,949 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:53,949 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000329', 'day': '13', 'monthFlag': '2', 'isDefault': False}
+[time:2019-03-13 18:24:53,949 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:54,041 - file:log.py] - INFO : 自定义月修改之默认成显示
+[time:2019-03-13 18:24:54,041 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:54,041 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:54,041 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:54,041 - file:log.py] - INFO : {'operation': 'update', 'siteId': 'site_00000329', 'day': '13', 'monthFlag': '2', 'isDefault': True}
+[time:2019-03-13 18:24:54,041 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:54,157 - file:log.py] - INFO : 自定义月新增之上月1号默认不显示
+[time:2019-03-13 18:24:54,157 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:54,157 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:54,157 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:54,157 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000150', 'day': 1, 'monthFlag': 0, 'isDefault': False}
+[time:2019-03-13 18:24:54,157 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:54,265 - file:log.py] - INFO : 自定义月新增之上月30号默认不显示
+[time:2019-03-13 18:24:54,266 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:54,266 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:54,266 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:54,266 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000151', 'day': 30, 'monthFlag': 0, 'isDefault': False}
+[time:2019-03-13 18:24:54,266 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:54,546 - file:log.py] - INFO : 自定义月新增之本月1号默认显示
+[time:2019-03-13 18:24:54,546 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:54,547 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:54,547 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:54,547 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000159', 'day': 1, 'monthFlag': 1, 'isDefault': True}
+[time:2019-03-13 18:24:54,547 - file:log.py] - INFO : 用例通过
+[time:2019-03-13 18:24:54,658 - file:log.py] - INFO : 自定义月新增之本月30号默认显示
+[time:2019-03-13 18:24:54,658 - file:log.py] - INFO : http://192.168.1.157:8080/back/energy/inOrUpcustom
+[time:2019-03-13 18:24:54,659 - file:log.py] - INFO : postbody
+[time:2019-03-13 18:24:54,659 - file:log.py] - INFO : {'Content-Type': 'application/json'}
+[time:2019-03-13 18:24:54,659 - file:log.py] - INFO : {'operation': 'add', 'siteId': 'site_00000160', 'day': 30, 'monthFlag': 1, 'isDefault': True}
+[time:2019-03-13 18:24:54,659 - file:log.py] - INFO : 用例通过
