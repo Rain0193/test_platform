@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9f198f29-acf0-4c80-ba33-87463998389b" name="Default" comment="修改了发送邮件部分，可以发送成功了">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requestnew/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/requestnew/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shutdown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shutdown.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +28,7 @@
     <SUITE FILE_PATH="coverage/requestnew$sqldb.coverage" NAME="sqldb Coverage Results" MODIFIED="1525316331171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$mongodb.coverage" NAME="mongodb Coverage Results" MODIFIED="1534214033383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/test_platform$emailNew.coverage" NAME="emailNew Coverage Results" MODIFIED="1552546192111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/test_platform$manage.coverage" NAME="manage Coverage Results" MODIFIED="1550652334879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_platform$manage.coverage" NAME="manage Coverage Results" MODIFIED="1552887980712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_platform$smtplib.coverage" NAME="smtplib Coverage Results" MODIFIED="1552545747966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Python/Python37/Lib" />
     <SUITE FILE_PATH="coverage/requestnew$Unittests_in_MetadataCityIncrement_py.coverage" NAME="Unittests in MetadataCityIncrement.py Coverage Results" MODIFIED="1524882278079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/task1/testcase" />
     <SUITE FILE_PATH="coverage/requestnew$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1546946694779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -45,8 +48,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/expandfunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="231">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/mongodb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -54,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/ExtentHTMLTestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="705" column="30" lean-forward="true" selection-start-line="705" selection-start-column="30" selection-end-line="705" selection-end-column="30" />
+            <state relative-caret-position="-441">
+              <caret line="725" column="27" lean-forward="true" selection-start-line="725" selection-start-column="27" selection-end-line="725" selection-end-column="27" />
               <folding>
                 <element signature="e#1674#1689#0" expanded="true" />
               </folding>
@@ -63,7 +75,46 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requestnew/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="114" column="21" lean-forward="true" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shutdown.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/emailNew.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
@@ -87,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>make</find>
       <find>db_</find>
       <find>进度</find>
       <find>task_name</find>
@@ -114,9 +164,10 @@
       <find>card-panel</find>
       <find>14</find>
       <find>_have_ssl</find>
-      <find>info</find>
       <find>ssl</find>
       <find>debuglevel</find>
+      <find>setting</find>
+      <find>info</find>
     </findStrings>
     <replaceStrings>
       <replace>email</replace>
@@ -128,8 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/main/report.html" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Assert.py" />
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/logtimeAssert.py" />
@@ -170,21 +219,23 @@
         <option value="$PROJECT_DIR$/version" />
         <option value="$PROJECT_DIR$/public/system.py" />
         <option value="$PROJECT_DIR$/task/third_task---8f955d24-26f3-11e9-b9a4-4cedfb3d07c3/testcase/UserLogin.py" />
-        <option value="$PROJECT_DIR$/requestnew/settings.py" />
         <option value="$PROJECT_DIR$/templates/main/case.html" />
         <option value="$PROJECT_DIR$/templates/main/step.html" />
         <option value="$PROJECT_DIR$/public/expandfunction.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/../test_API/libnew/HTMLTestRunnerNew.py" />
-        <option value="$PROJECT_DIR$/public/ExtentHTMLTestRunner.py" />
         <option value="E:/Python/Python37/Lib/smtplib.py" />
         <option value="$PROJECT_DIR$/public/emailNew.py" />
+        <option value="$PROJECT_DIR$/public/ExtentHTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/requestnew/settings.py" />
+        <option value="$PROJECT_DIR$/start.sh" />
+        <option value="$PROJECT_DIR$/shutdown.sh" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="258" />
-    <option name="y" value="138" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="154" />
+    <option name="y" value="112" />
     <option name="width" value="1517" />
     <option name="height" value="861" />
   </component>
@@ -201,6 +252,11 @@
             <path>
               <item name="test_platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_platform" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_platform" type="b2602c69:ProjectViewProjectNode" />
@@ -245,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.emailNew">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="emailNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="requestnew" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -390,10 +446,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.manage" />
         <item itemvalue="Python.emailNew" />
         <item itemvalue="Python.smtplib" />
         <item itemvalue="Python.expandfunction" />
-        <item itemvalue="Python.manage" />
         <item itemvalue="Python.script_function" />
       </list>
     </recent_temporary>
@@ -412,7 +468,7 @@
       <workItem from="1550659042320" duration="2399000" />
       <workItem from="1550747802188" duration="4455000" />
       <workItem from="1551336377724" duration="1099000" />
-      <workItem from="1551781827157" duration="36504000" />
+      <workItem from="1551781827157" duration="40560000" />
     </task>
     <task id="LOCAL-00001" summary="修改了接口名稱输入只允许英文，一个地方">
       <created>1550750202942</created>
@@ -478,7 +534,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50477000" />
+    <option name="totallyTimeSpent" value="54533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +546,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="138" width="1517" height="861" extended-state="0" />
+    <frame x="154" y="112" width="1517" height="861" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463967" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -498,13 +555,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9051173" weight="0.35900217" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.4167813" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.2874828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.22885032" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.36726272" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09488273" side_tool="true" weight="0.330076" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49946696" weight="0.21018419" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32899022" />
@@ -563,7 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task/first_task---2ee733f4-26e0-11e9-b807-4cedfb3d07c3/testcase/UserLogin.py" />
     <entry file="file://$PROJECT_DIR$/task/first_task---d1a6a6c6-26ee-11e9-84c6-4cedfb3d07c3/testcase/UserLogin.py" />
     <entry file="file://$PROJECT_DIR$/public/suit.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -598,13 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/mongodb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -689,30 +738,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestnew/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -831,20 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/expandfunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/make_testcase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1211">
@@ -886,16 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ExtentHTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="705" column="30" lean-forward="true" selection-start-line="705" selection-start-column="30" selection-end-line="705" selection-end-column="30" />
-          <folding>
-            <element signature="e#1674#1689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Python/Python37/Lib/socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14406">
@@ -920,6 +921,68 @@
           <folding>
             <element signature="e#43#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/expandfunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ExtentHTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="725" column="27" lean-forward="true" selection-start-line="725" selection-start-column="27" selection-end-line="725" selection-end-column="27" />
+          <folding>
+            <element signature="e#1674#1689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requestnew/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="114" column="21" lean-forward="true" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shutdown.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

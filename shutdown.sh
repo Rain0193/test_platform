@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a=`lsof -i:8000|awk 'NR==2{print $2}'`
+a=`lsof -i:8001|awk 'NR==2{print $2}'`
 echo "进程号为"$a
 if [[ $a -eq "" ]]
 then

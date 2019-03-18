@@ -25,7 +25,7 @@ SECRET_KEY = '2l24cj%pl_8iku9x+vo)1h+!s+e+ga-i86zmx&y$s9k07w!19x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['0.0.0.0']
 #ALLOWED_HOSTS = []
 
 
@@ -110,7 +110,7 @@ DATABASES = {
 }
 
 #测试开发mongodb
-MONGODB={'ip':'127.0.0.1','port':27017,'NAME':'test','collections':'test_response'}
+MONGODB={'ip':'192.168.1.157','port':27017,'NAME':'test','collections':'test_response'}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
