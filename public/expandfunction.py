@@ -71,6 +71,10 @@ class Expandfunction:
         tomorrow  = day + 1
         return tomorrow
 
+    # 获取当天时间，精确到秒（2019-03-19 00:00:00）
+    def gettodaytime(self):
+        day = str(self.getNowTime()) +" " + "00:00:00"
+        return day
 
 
 
@@ -90,3 +94,5 @@ if __name__ == '__main__':
     print(y)
     last = datetime.date(datetime.date.today().year, datetime.date.today().month, 1) - datetime.timedelta(1)
     print(last)
+    k = e.gettodaytime()
+    print(k)

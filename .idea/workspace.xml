@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f198f29-acf0-4c80-ba33-87463998389b" name="Default" comment="修改了根目录下开始关闭文件的目录">
+    <list default="true" id="9f198f29-acf0-4c80-ba33-87463998389b" name="Default" comment="192.168.1.157">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requestnew/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/requestnew/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/expandfunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/expandfunction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
     <SUITE FILE_PATH="coverage/requestnew$script_function.coverage" NAME="script_function Coverage Results" MODIFIED="1547020397539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1533621606086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task/testcase" />
     <SUITE FILE_PATH="coverage/requestnew$Unittests_in_postCouponDisplaymentNormalTest_py.coverage" NAME="Unittests in postCouponDisplaymentNormalTest.py Coverage Results" MODIFIED="1539239073998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/first_task/testcase" />
-    <SUITE FILE_PATH="coverage/test_platform$expandfunction.coverage" NAME="expandfunction Coverage Results" MODIFIED="1552461650015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/test_platform$expandfunction.coverage" NAME="expandfunction Coverage Results" MODIFIED="1552976020155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$Unittests_in_UserLoginInfoAdd_py.coverage" NAME="Unittests in UserLoginInfoAdd.py Coverage Results" MODIFIED="1524886095975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task/task1/testcase" />
     <SUITE FILE_PATH="coverage/requestnew$email.coverage" NAME="email Coverage Results" MODIFIED="1539257267810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/requestnew$redis.coverage" NAME="redis Coverage Results" MODIFIED="1542163789715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
@@ -44,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/expandfunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="114">
+              <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -74,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requestnew/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="219">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -224,7 +223,6 @@
         <option value="$PROJECT_DIR$/task/third_task---8f955d24-26f3-11e9-b9a4-4cedfb3d07c3/testcase/UserLogin.py" />
         <option value="$PROJECT_DIR$/templates/main/case.html" />
         <option value="$PROJECT_DIR$/templates/main/step.html" />
-        <option value="$PROJECT_DIR$/public/expandfunction.py" />
         <option value="$PROJECT_DIR$/../test_API/libnew/HTMLTestRunnerNew.py" />
         <option value="E:/Python/Python37/Lib/smtplib.py" />
         <option value="$PROJECT_DIR$/public/emailNew.py" />
@@ -235,6 +233,7 @@
         <option value="$PROJECT_DIR$/start.sh" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/requestnew/settings.py" />
+        <option value="$PROJECT_DIR$/public/expandfunction.py" />
       </list>
     </option>
   </component>
@@ -456,10 +455,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.expandfunction" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.emailNew" />
         <item itemvalue="Python.smtplib" />
-        <item itemvalue="Python.expandfunction" />
         <item itemvalue="Python.script_function" />
       </list>
     </recent_temporary>
@@ -478,7 +477,7 @@
       <workItem from="1550659042320" duration="2399000" />
       <workItem from="1550747802188" duration="4455000" />
       <workItem from="1551336377724" duration="1099000" />
-      <workItem from="1551781827157" duration="42813000" />
+      <workItem from="1551781827157" duration="45260000" />
     </task>
     <task id="LOCAL-00001" summary="修改了接口名稱输入只允许英文，一个地方">
       <created>1550750202942</created>
@@ -522,7 +521,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552893657457</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1">
+      <created>1552895235353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552895235353</updated>
+    </task>
+    <task id="LOCAL-00008" summary="192.168.1.157">
+      <created>1552895522440</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552895522440</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -558,7 +571,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56786000" />
+    <option name="totallyTimeSpent" value="59233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,19 +586,19 @@
     <frame x="154" y="112" width="1517" height="861" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2463967" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463967" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9051173" weight="0.35900217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.9051173" visible="true" weight="0.35763413" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.2874828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" visible="true" weight="0.36726272" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.36726272" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09488273" side_tool="true" weight="0.330076" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49946696" weight="0.21018419" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32899022" />
@@ -632,7 +645,9 @@
     <MESSAGE value="修改了发送邮件部分，可以发送成功了" />
     <MESSAGE value="修改了配置文件，端口号，MongoDB地址" />
     <MESSAGE value="修改了根目录下开始关闭文件的目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了根目录下开始关闭文件的目录" />
+    <MESSAGE value="1" />
+    <MESSAGE value="192.168.1.157" />
+    <option name="LAST_COMMIT_MESSAGE" value="192.168.1.157" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -935,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/expandfunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/mongodb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -1013,8 +1021,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requestnew/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="219">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/expandfunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
         </state>
       </provider>
     </entry>
