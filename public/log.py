@@ -27,7 +27,7 @@ class Log:
         if self.level == "DEBUG":
             self.logger.debug(message)
         if self.level == "WARN":
-            self.logger.warn(message)
+            self.logger.warning(message)
         if self.level == "ERROR":
             self.logger.error(message)
 
