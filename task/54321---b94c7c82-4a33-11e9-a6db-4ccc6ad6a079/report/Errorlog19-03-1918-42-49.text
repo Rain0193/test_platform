@@ -1,0 +1,7 @@
+[time:2019-03-19 18:42:50,229 - file:log.py] - ERROR : test
+[time:2019-03-19 18:42:50,229 - file:log.py] - ERROR : http://192.168.1.157:8080/platform/login
+[time:2019-03-19 18:42:50,229 - file:log.py] - ERROR : postform
+[time:2019-03-19 18:42:50,229 - file:log.py] - ERROR : {}
+[time:2019-03-19 18:42:50,229 - file:log.py] - ERROR : {'userName': 'admin034215', 'password': 'hanch2018'}
+[time:2019-03-19 18:42:50,229 - file:log.py] - ERROR : 用例测试断言错误
+[time:2019-03-19 18:42:50,231 - file:log.py] - ERROR : status_code真实值:415,方式:等于,预期值:200
