@@ -783,7 +783,7 @@ function html_escape(s) {
     #
 
     REPORT_TMPL = """
-<p id='show_detail_line'>
+<p id='show_detail_line'>Show
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ %(passrate)s }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ %(fail)s }</a>
 <a class="btn btn-success" href='javascript:showCase(2)'>通过{ %(Pass)s }</a>
@@ -805,6 +805,7 @@ function html_escape(s) {
     <td>失败</td>
     <td>错误</td>
     <td>详细</td>
+    <td>Screenshot</td>
 </tr>
 %(test_list)s
 <tr id='total_row'>
@@ -1048,7 +1049,7 @@ class HTMLTestRunner(Template_mixin):
         status.append('共 %s' % (result.success_count + result.failure_count + result.error_count))
         if result.success_count: status.append('通过 %s'    % result.success_count)
         if result.failure_count: status.append('失败 %s' % result.failure_count)
-        if result.error_count:   status.append('错误 %s'   % result.error_count  )
+        if result.error_count:   status.append('错误 %s'   % result.error_count )
         if status:
             status = '，'.join(status)
             self.passrate = str("%.2f%%" % (float(result.success_count) / float(result.success_count + result.failure_count + result.error_count) * 100))

@@ -8,8 +8,8 @@ class Expandfunction:
         pass
 
     # 获取当前时间(2019-03-12)/(2019-03)
-    @staticmethod
-    def getNowTime(format="%Y-%m-%d"):
+
+    def getNowTime(self, format="%Y-%m-%d"):
         return time.strftime(format, time.localtime(time.time()))
 
     # 获取当前时间往前推一个月,日期固定为1(2019-02-01)
@@ -45,7 +45,7 @@ class Expandfunction:
 
     def get_today_Timestamp(self):
         today = datetime.date.today()
-        today_Timestamp = str(int(time.mktime(time.strptime(str(today),'%Y-%m-%d')))) + "000"
+        today_Timestamp = str(int(time.mktime(time.strptime(str(today), '%Y-%m-%d')))) + "000"
         return today_Timestamp
 
     # 获取今天的日期数字（只要日期）
