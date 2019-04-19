@@ -1,7 +1,0 @@
-[time:2019-03-20 09:28:24,407 - file:log.py] - ERROR : 规则适配页面删除告警过滤
-[time:2019-03-20 09:28:24,407 - file:log.py] - ERROR : http://192.168.1.157:8080/back/event/delEventFilter
-[time:2019-03-20 09:28:24,407 - file:log.py] - ERROR : postbody
-[time:2019-03-20 09:28:24,407 - file:log.py] - ERROR : {'Content-Type': 'application/json'}
-[time:2019-03-20 09:28:24,407 - file:log.py] - ERROR : {'timestamp': '${__get_today_Timestamp()}', 'deviceId': '1881527c40248000'}
-[time:2019-03-20 09:28:24,407 - file:log.py] - ERROR : 用例测试断言错误
-[time:2019-03-20 09:28:24,407 - file:log.py] - ERROR : ['code']真实值:0,方式:等于,预期值:1
